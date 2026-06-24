@@ -7,7 +7,7 @@ import logo from '../assets/logo.jpg';
 function Navbar() {
   return (
     <div >
-      <nav className="flex justify-between items-center px-4 py-1 bg-black">
+      <nav className="absolute top-0 left-0 w-full z-10 bg-transparent flex justify-between items-center px-4 py-1">
         <div>
           <Link to="/" > 
             <img src={logo} className="h-12 w-12 rounded-full object-cover" alt="Logo" />
