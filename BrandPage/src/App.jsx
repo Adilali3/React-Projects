@@ -5,10 +5,10 @@ import Navbar from "./Components/Navbar"
 function App() {
 
   return (
-    <>
+    <div className="relative">
     <Navbar />
     <Body />
-    </>
+    </div>
     
   )
 }
