@@ -8,9 +8,6 @@ function Navbar() {
         <img src="/logo.avif" alt="logo" className='m-2 h-10 rounded-full '/>
         <h2 className='font-bold'>Firebase Contact App</h2>
       </div>
-      <div>
-        <input type="text"  />
-      </div>
     </div>
     </>
   )
